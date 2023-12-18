@@ -10,6 +10,7 @@ module.exports = {
         cwd: 'frontend', // Set the working directory to your React app
         env: {
           NODE_ENV: 'production',
+          PORT: 3000,
         },
       },
       {
@@ -22,6 +23,7 @@ module.exports = {
         cwd: 'backend', // Set the working directory to your Node.js server
         env: {
           NODE_ENV: 'production',
+          PORT: 4000,
         },
       },
     ],
